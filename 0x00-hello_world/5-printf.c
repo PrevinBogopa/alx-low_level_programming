@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*This is the comment line
- the printf displays output to user
- * Theprogramm shoudl return 0
- * */
+/**
+ * main- Entry pont
+ *Return: Always 0 (Success)
+ */
 
 int main (void)
 {
