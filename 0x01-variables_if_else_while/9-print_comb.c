@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- *main -to print 0 to 9 followed by a comma.
+ *main - to print 0 to 9 followed by a comma.
  *Return: Always 0 (Success)
  */
 
