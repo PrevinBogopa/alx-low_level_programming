@@ -1,39 +1,39 @@
 #include <stdio.h>
 
 /**
- *main - print a number pair from 00-99 with no repeats
+ *main - print a number pair from 00-99 with no repeatiiis
  *Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int tens;
-	int ones;
-	int t;
-	int o;
+	int Num10s;
+	int Num1s;
+	int ten;
+	int one;
 
-	for (tens = '0'; tens <= '9'; tens++)
+	for (Num10s = '0'; Num10s <= '9'; Num10s++)
 	{
-		for (ones = '0'; ones <= '9'; ones++)
+		for (Num1s = '0'; Num1s <= '9'; Num1s++)
 		{
-		 	for (t = tens; t <= '9'; t++)
+			for (ten = Num10s; ten <= '9'; ten++)
 			{
-				for (o = ones + 1; o <= '9'; o++)
+				for (one = Num1s + 1; one <= '9'; one++)
 				{
-					putchar(tens);
-					putchar(ones);
+					putchar(Num10s);
+					putchar(Num1s);
 					putchar(' ');
-					putchar(t);
-					putchar(o);
+					putchar(ten);
+					putchar(one);
 
-					if (!((tens == '9' && ones == '8') &&
-					      (t == '9' && o == '9')))
+					if (!((Num10s == '9' && Num1s == '8') &&
+								(ten == '9' && one == '9')))
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-				o = '0';
+				one = '0';
 			}
 		}
 	}

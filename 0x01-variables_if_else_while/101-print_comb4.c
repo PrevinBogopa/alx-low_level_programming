@@ -7,19 +7,20 @@
 
 int main(void)
 {
-	int one;
-	int ten;
-	int hundred;
+	int 1st;
+	int 10th;
+	int 100th;
 
-	for (hundred = '0'; hundred <= '9'; hundred++) 
+	for (100th = '0'; 100th <= '9'; 100th++)
 	{
-		for (ten = (hundred + 1); ten <= '9'; ten++)
+		for (10th = (100th + 1); 10th <= '9'; 10th++)
 		{
-			for (one = (ten + 1); one <= '9'; one++)			{
-				putchar(hundred);
-				putchar(ten);
-				putchar(one);
-				if (hundred != '7' || ten != '8' || one != '9')
+			for (1st = (10th + 1); 1st <= '9'; 1st++)
+			{
+				putchar(100th);
+				putchar(10th);
+				putchar(1st);
+				if (100th != '7' || 10th != '8' || 1st != '9')
 				{
 					putchar(',');
 					putchar(' ');
