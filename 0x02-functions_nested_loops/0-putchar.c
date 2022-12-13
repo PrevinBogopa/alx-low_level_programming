@@ -1,13 +1,11 @@
-#include <stdio>
+#include <unistd.h>
 
 /**
- * main - This program will print character.
- * Return: Always 0;
+ * _putchar - This program will print character.
+ * Return: Always 1 if success else -1.
+ * @v: the character that is going to print out
  */
-
-int main(void)
+int _putchar(char v)
 {
-	printf("_putchar");
-
-return (0);
+	return (write(1, &v, 1));
 }
