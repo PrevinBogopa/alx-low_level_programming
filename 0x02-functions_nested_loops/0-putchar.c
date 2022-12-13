@@ -7,7 +7,7 @@
  * main - Prints _putchar and a line
  */
 
-int _putchar(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
