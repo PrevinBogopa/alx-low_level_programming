@@ -15,7 +15,7 @@ int print_sign(int num)
 	else if (num == 0)
 	{
 		_putchar('0');
-		return ('0');
+		return (0);
 	}
 	else
 	{
