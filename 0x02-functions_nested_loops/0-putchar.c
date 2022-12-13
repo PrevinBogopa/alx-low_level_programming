@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
+ * main - this will print putchar on new line
  * _putchar - This program will print character.
  * Return: Always 1 if success else -1.
- * @c: the character that is going to print out
- * main - Prints _putchar and a line
  */
 
 int main(void)
