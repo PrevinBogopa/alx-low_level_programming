@@ -21,9 +21,9 @@ int main(void)
 		num1 = num2;
 		num2 = sum;
 		if ((sum <= 4000000) && (sum % 2 == 0))
-			sumEvens += sum;
+			sumEven += sum;
 	}
-	printf("%d\n", sumEvens);
+	printf("%d\n", sumEven);
 
 	return (0);
 }
