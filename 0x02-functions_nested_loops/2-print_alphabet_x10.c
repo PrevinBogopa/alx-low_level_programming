@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	{
 		for (tens = 'a'; tens <= 'z'; tens++)
 		{
-			_putchar(10th);
+			_putchar(tens);
 		}
 		_putchar('\n');
 	}
