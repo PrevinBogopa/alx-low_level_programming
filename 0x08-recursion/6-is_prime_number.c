@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime - recursively divide by the  highest divider then jump even numberss
+ * is_prime - recursively divide by the  highest divider then jump even numbers
  * @n: number to check if prime
  * @divisor: divider
  * Return: 1 if prime, 0 if not, or recursive function call
@@ -31,6 +31,5 @@ int is_prime_number(int n)
 		return (0);
 	if (n == 2)
 		return (1);
-
 	return (is_prime(n, divisor));
 }
