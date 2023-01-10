@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - print product of argument numbers that they passed
  * @argc: this counts the arguments
  * @argv: numbers to multiply
- * Return: 0 on successelse  1 when two arguments not given
+ * Return: 0 on success else 1 when two arguments not given
  */
 
 int main(int argc, char *argv[])
